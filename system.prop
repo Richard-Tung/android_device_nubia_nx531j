@@ -38,6 +38,10 @@ ro.config.devicename=nubia Z11
 persist.camera.stats.test=5
 camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
 
+# HAX - remove ASAP
+media.stagefright.legacyencoder=true
+media.stagefright.less-secure=true
+
 # CNE
 persist.cne.feature=1
 
