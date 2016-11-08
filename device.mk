@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    libshim_camera \
     NeoVision6
 
 PRODUCT_COPY_FILES += \
