@@ -362,3 +362,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/fstman.ini:system/etc/wifi/fstman.ini \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Bluetooth aptX
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/bluetooth/vendor/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+	$(LOCAL_PATH)/bluetooth/vendor/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+	$(LOCAL_PATH)/bluetooth/vendor/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
