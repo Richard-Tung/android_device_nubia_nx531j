@@ -368,9 +368,3 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/bluetooth/vendor/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
 	$(LOCAL_PATH)/bluetooth/vendor/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
 	$(LOCAL_PATH)/bluetooth/vendor/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so
-
-# NFC SWP SIM
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/nfc/swp/org.simalliance.openmobileapi.jar:system/framework/org.simalliance.openmobileapi.jar \
-	$(LOCAL_PATH)/nfc/swp/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
-	$(LOCAL_PATH)/nfc/swp/SmartcardService.apk:system/priv-app/SmartcardService/SmartcardService.apk
