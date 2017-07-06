@@ -279,6 +279,10 @@ vendor/lib/libchromatix_imx298_ois_isp_startrack.so
 vendor/lib/libchromatix_imx298_ois_isp_video.so
 vendor/lib/libchromatix_imx298_ois_isp_video_hdr.so
 vendor/lib/libchromatix_imx298_ois_postproc.so
+vendor/lib/libchromatix_imx298_ois_cpp_profession_snapshot.so
+vendor/lib/libchromatix_imx298_ois_a3_profession_mode.so
+vendor/lib/libchromatix_imx298_ois_cpp_microspur_snapshot.so
+vendor/lib/libchromatix_imx298_ois_cpp_mtf_denoise.so
 
 # Camera firmware
 etc/firmware/cpp_firmware_v1_1_6.fw
