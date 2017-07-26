@@ -332,12 +332,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstlport
 
-# Wechat Fingerprint Payment
+# Fingerprint Payment
 PRODUCT_PACKAGES += \
-    soter
+    FingerprintPayment
 
 PRODUCT_BOOT_JARS += \
-    soter
+    FingerprintPayment
 
 # WiFi
 PRODUCT_PACKAGES += \
