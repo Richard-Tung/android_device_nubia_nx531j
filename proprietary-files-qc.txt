@@ -52,8 +52,6 @@ vendor/lib64/libsdmextension.so|73440a15b4a185c1509e612c8e3fbba3d1d8a60b
 
 # Radio
 framework/qti-telephony-common.jar|97d23b52db3773005e51eac7b9df1701c99a416c
-framework/embmslibrary.jar|86060d9dcac40d94e9601601ff809395591961a6
-framework/QtiTelephonyServicelibrary.jar|ccbc4c16b05a9705966d48bf3ef6f4a3e3e3ae32
 
 # Thermal
 vendor/bin/thermal-engine|fbff51b060eff6fb7ca174db1c8130cfd0eba913
