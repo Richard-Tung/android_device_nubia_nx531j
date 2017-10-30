@@ -46,7 +46,6 @@ write_makefiles "$MY_DIR"/proprietary-files.txt
 write_makefiles "$MY_DIR"/proprietary-files-qc.txt
 
 echo '' >> "$PRODUCTMK"
-echo '$(call inherit-product, vendor/qcom/binaries/msm8996/audio/audio-vendor.mk)' >> "$PRODUCTMK"
 echo '$(call inherit-product, vendor/qcom/binaries/msm8996/graphics/graphics-vendor.mk)' >> "$PRODUCTMK"
 echo '' >> "$PRODUCTMK"
 
