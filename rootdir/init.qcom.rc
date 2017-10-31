@@ -744,17 +744,6 @@ service iprenew_wigig0 /system/bin/dhcpcd -n
     disabled
     oneshot
 
-# Ethernet
-service dhcpcd_eth0 /system/bin/dhcpcd -ABKLG
-    class late_start
-    disabled
-    oneshot
-
-service iprenew_eth0 /system/bin/dhcpcd -n
-    class late_start
-    disabled
-    oneshot
-
 service ptt_socket_app /system/bin/ptt_socket_app -d
     class main
     user root
